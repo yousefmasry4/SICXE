@@ -28,7 +28,7 @@ string Dec22Hex(int x){
     return ss.str();
 
 }
-
+#hi, U should use switch instead of elif
 string obcode(string s){
     if(s=="STL")return "14";
     else if(s=="JSUB")return "48";
